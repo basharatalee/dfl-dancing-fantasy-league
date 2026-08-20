@@ -96,9 +96,7 @@ export default function WeeklyHighlightsSlider() {
                           <div className="mt-6 flex items-center gap-3 text-secondary">
                             {/* <Music2 size={21} aria-hidden="true" /> */}
 
-                            {/* here sparkels */}
-                            
-                            <Sparkles size={21} aria-hidden="true" />
+                            {/*  */}
                             <span className="font-semibold text-foreground">{highlight.dance}</span>
                           </div>
                         </div>
@@ -107,6 +105,7 @@ export default function WeeklyHighlightsSlider() {
                             <p className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">Judges&apos; score</p>
                             <p className="mt-1 text-3xl font-bold text-primary">{highlight.score}</p>
                           </div>
+                          {/* <Star className="fill-primary text-primary" size={32} aria-hidden="true" /> */}
                         </div>
                       </div>
 
